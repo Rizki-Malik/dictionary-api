@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#FBFADA]
+    }
+
+    .container {
+        @apply bg-white mx-auto px-20 py-20 mt-60 rounded-lg drop-shadow-lg w-full 
+    }
+}
+
+@layer utilities {
+    .search-box {
+        @apply w-full flex justify-between
+    }
+    
+    .search-box input {
+        @apply p-3 w-3/4 border-b outline-none border-b-[#ADBC9F]
+    }
+    
+    #search-button {
+        @apply px-5 rounded-md text-white bg-[#436850] hover:bg-[#12372A] hover:text-[#FBFADA] transition-colors
+    }
+
+    .result{
+        @apply relative 
+    }
+    
+    .word {
+        @apply text-xl mt-8 flex justify-start
+    }
+
+    .word-display{
+        @apply text-2xl font-bold mr-3
+    }
+    
+    .sound-sample {
+        @apply rounded-full p-2 text-[#436850] hover:text-[#12372A] hover:bg-slate-200 transition-colors
+    }
+
+    .result .details{
+        @apply flex gap-3 text-[#ADBC9F] mt-1 mr-0 mb-5 ml-0 text-sm
+    }
+
+    .word-meaning{
+        @apply text-[#436850]
+    }
+    .word-example{
+        @apply text-[#436850] italic border-l-4 border-l-[#12372A] pl-5 mt-8
+    }
+}
