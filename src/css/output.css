@@ -655,14 +655,14 @@ body {
   line-height: 1.75rem;
 }
 
-.word-display {
+.result .word-display {
   margin-right: 0.75rem;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
 }
 
-.sound-sample {
+.result button {
   border-radius: 9999px;
   padding: 0.5rem;
   --tw-text-opacity: 1;
@@ -672,7 +672,7 @@ body {
   transition-duration: 150ms;
 }
 
-.sound-sample:hover {
+.result button:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -692,12 +692,12 @@ body {
   color: rgb(173 188 159 / var(--tw-text-opacity));
 }
 
-.word-meaning {
+.result .word-meaning {
   --tw-text-opacity: 1;
   color: rgb(67 104 80 / var(--tw-text-opacity));
 }
 
-.word-example {
+.result .word-example {
   margin-top: 2rem;
   border-left-width: 4px;
   --tw-border-opacity: 1;

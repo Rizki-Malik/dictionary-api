@@ -33,11 +33,11 @@
         @apply text-xl mt-8 flex justify-start
     }
 
-    .word-display{
+    .result .word-display{
         @apply text-2xl font-bold mr-3
     }
     
-    .sound-sample {
+    .result button {
         @apply rounded-full p-2 text-[#436850] hover:text-[#12372A] hover:bg-slate-200 transition-colors
     }
 
@@ -45,10 +45,10 @@
         @apply flex gap-3 text-[#ADBC9F] mt-1 mr-0 mb-5 ml-0 text-sm
     }
 
-    .word-meaning{
+    .result .word-meaning{
         @apply text-[#436850]
     }
-    .word-example{
+    .result .word-example{
         @apply text-[#436850] italic border-l-4 border-l-[#12372A] pl-5 mt-8
     }
 }
